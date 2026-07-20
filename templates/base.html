@@ -1,0 +1,16 @@
+<html>
+    <head>
+        {% include "components/header.html" %}
+    </head>
+    <body>
+        <h1>Welcome to MyBlog </h1>
+        <hr>
+        
+        {% block content %}
+
+        {% endblock %}
+        <footer>
+            {% include "components/footer.html" %}
+        </footer>
+    </body>
+</html>
