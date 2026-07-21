@@ -38,7 +38,21 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'article',
+    'mdeditor',
 ]
+
+# 以下配置可选，但建议设置
+MDEDITOR_CONFIG = {
+    'width': '100%',  # 编辑器宽度
+    'height': 500,    # 编辑器高度
+    'toolbar': ["bold", "italic", "quote", "unorderedlist", "orderedlist", "link", "image", "code", "table"],
+    'upload_image_formats': ["jpg", "jpeg", "gif", "png", "bmp", "webp"],  # 图片上传格式
+    'image_folder': 'editor',  # 图片保存文件夹
+    'theme': 'default',  # 主题
+    'preview_theme': 'default',  # 预览主题
+    'editor_theme': 'default',  # 编辑器主题
+    'toolbar_autofixed': True,  # 工具栏固定
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -116,3 +130,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
 STATIC_URL = 'static/'
+
+# 添加这一行：指定 collectstatic 命令收集文件的目标目录
+STATIC_ROOT = BASE_DIR / 'staticfiles'
+# 或者使用旧式写法：
+# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
