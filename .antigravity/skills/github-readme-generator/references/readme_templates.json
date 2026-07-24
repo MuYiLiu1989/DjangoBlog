@@ -1,0 +1,9 @@
+{
+    "project_sections": {
+        "header": "# 🚀 [Project Name]\n\n> [Short, catchy one-line description of what this project does.]\n\n",
+        "badge_section": "[![GitHub license](https://img.shields.io/github/license/[username]/[repo])](https://github.com/[username]/[repo]/blob/main/LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)\n\n",
+        "agent_generation_notice": "### 🤖 Antigravity Agent Generated\n\n> **⚠️ IMPORTANT NOTE**: This `README.md` was autonomously scaffolded and is maintained by an **Antigravity IDE AI Agent**. It is specifically structured to generate the primary **GitHub README** landing page, ensuring up-to-date dependency representation and setup instructions directly from the codebase metadata.\n\n---\n\n",
+        "table_of_contents": "## 📝 Table of Contents\n- [About](#-about)\n- [Getting Started](#-getting-started)\n- [Deployment](#-deployment)\n- [Usage](#-usage)\n- [Contributing](#-contributing)\n\n",
+        "getting_started": "## 🏁 Getting Started\n\n### Prerequisites\n[List of software needed, e.g., Node.js, Python, Docker]\n\n### Installation\n```bash\n[Steps to install, e.g., npm install, pip install]\n```\n\n"
+    }
+}
